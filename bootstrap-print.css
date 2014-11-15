@@ -168,5 +168,25 @@
   .col-p-offset-0 {
     margin-left: 0%;
   }
+  
+  /* Always insert a page break after the element */
+  .print-page-always {
+    page-break-after: always;
+  }
+  
+  /* Avoid page break after the element (if possible) */
+  .print-page-avoid {
+    page-break-after: avoid;
+  }
+  
+  /* Insert page breaks after the element so that the next page is formatted as a left page */
+  .print-page-left {
+    page-break-after: left;
+  }
+  
+  /* Insert page breaks after the element so that the next page is formatted as a right page */
+  .print-page-right {
+    page-break-after: right;
+  }
 
 }
