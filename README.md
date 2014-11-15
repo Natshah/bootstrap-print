@@ -20,17 +20,15 @@ Bootstrap print
  .col-p-11,
  .col-p-12
  
- - .avoid-page-break-inside
- 
- - .always-page-break-after
- - .avoid-page-break-after
- - .left-page-break-after
- - .right-page-break-after
- 
- - .always-page-break-befor
- - .left-page-break-befor
- - .right-page-break-befor
- - .avoid-page-break-inside
+  - .avoid-page-break-inside
+  - .always-page-break-after
+  - .avoid-page-break-after
+  - .left-page-break-after
+  - .right-page-break-after
+  - .always-page-break-befor
+  - .left-page-break-befor
+  - .right-page-break-befor
+  - .avoid-page-break-inside
  
  
    - Rajab Natshah
