@@ -1,7 +1,7 @@
-Bootstrap print grid
+Bootstrap print
 ====================
 
- Bootstrap print grid for Twitter Bootstrap v3.
+ Bootstrap print for Twitter Bootstrap v3.
  
  To mange grids using Twitter Bootstrap v3 for print media.
  
