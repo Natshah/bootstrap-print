@@ -170,23 +170,49 @@
   }
   
   /* Always insert a page break after the element */
-  .print-page-always {
+  .always-page-break-after {
     page-break-after: always;
   }
   
   /* Avoid page break after the element (if possible) */
-  .print-page-avoid {
+  .avoid-page-break-after {
     page-break-after: avoid;
   }
   
   /* Insert page breaks after the element so that the next page is formatted as a left page */
-  .print-page-left {
+  .left-page-break-after {
     page-break-after: left;
   }
   
   /* Insert page breaks after the element so that the next page is formatted as a right page */
-  .print-page-right {
+  .right-page-break-after {
     page-break-after: right;
+  }
+  
+  
+    /* Always insert a page break before the element */
+  .always-page-break-befor {
+    page-break-before: always;
+  }
+  
+  /* Avoid page break before the element (if possible) */
+  .avoid-page-break-befor {
+    page-break-before: avoid;
+  }
+  
+  /* Insert page breaks before the element so that the next page is formatted as a left page */
+  .left-page-break-befor {
+    page-break-before: left;
+  }
+  
+  /* Insert page breaks before the element so that the next page is formatted as a right page */
+  .right-page-break-befor {
+    page-break-before: right;
+  }
+  
+  /* Avoid page break inside the element (if possible) */
+  .avoid-page-break-inside {
+    page-break-inside : avoid;
   }
 
 }
