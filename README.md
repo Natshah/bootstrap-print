@@ -27,10 +27,10 @@ Bootstrap print
   - .left-page-break-after
   - .right-page-break-after
 
-  - .always-page-break-befor
-  - .avoid-page-break-befor
-  - .left-page-break-befor
-  - .right-page-break-befor
+  - .always-page-break-before
+  - .avoid-page-break-before
+  - .left-page-break-before
+  - .right-page-break-before
 
 
 
