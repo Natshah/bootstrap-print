@@ -191,22 +191,22 @@
   
   
     /* Always insert a page break before the element */
-  .always-page-break-befor {
+  .always-page-break-before {
     page-break-before: always;
   }
   
   /* Avoid page break before the element (if possible) */
-  .avoid-page-break-befor {
+  .avoid-page-break-before {
     page-break-before: avoid;
   }
   
   /* Insert page breaks before the element so that the next page is formatted as a left page */
-  .left-page-break-befor {
+  .left-page-break-before {
     page-break-before: left;
   }
   
   /* Insert page breaks before the element so that the next page is formatted as a right page */
-  .right-page-break-befor {
+  .right-page-break-before {
     page-break-before: right;
   }
   
