@@ -1,4 +1,4 @@
-Bootstrap print 3.x-1.0
+Bootstrap print 3.x-1.1
 ====================
 
  Bootstrap print for Twitter Bootstrap v3.
@@ -21,12 +21,10 @@ Bootstrap print 3.x-1.0
  .col-p-12
  
   - .avoid-page-break-inside
-
   - .always-page-break-after
   - .avoid-page-break-after
   - .left-page-break-after
   - .right-page-break-after
-
   - .always-page-break-before
   - .avoid-page-break-before
   - .left-page-break-before
