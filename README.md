@@ -1,4 +1,4 @@
-Bootstrap print 3.x-1.1
+Bootstrap Print 3.x-1.1
 ====================
 
  Bootstrap print for Twitter Bootstrap v3.
