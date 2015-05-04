@@ -1,9 +1,9 @@
-Bootstrap Print 3.x-1.1
+Bootstrap Print 3.x-1.1.1
 ====================
 
  Bootstrap print for Twitter Bootstrap v3.
  
- To mange grids using Twitter Bootstrap v3 for print media.
+ To mange grids using Twitter Bootstrap v3 for print media using CSS/LESS.
  
  This will help controlling grid columns size on printed pages.
  
