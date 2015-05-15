@@ -21,42 +21,42 @@ Bootstrap Print 3.x-1.2
  .col-p-12
  
  And you have a list of helper CSS classes.
- 
-   - Always insert a page break after the element
-  .always-page-break-after
-  .always-pba
 
-   - Avoid page break after the element (if possible)
-  .avoid-page-break-after,
-  .avoid-pba
+   - Always insert a page break after the element.
+   -- .always-page-break-after .
+   -- .always-pba .
 
-   - Insert page breaks after the element so that the next page is formatted as a left page */
-  .left-page-break-after
-  .left-pba
+   - Avoid page break after the element (if possible).
+   -- .avoid-page-break-after .
+   -- .avoid-pba .
 
-   - Insert page breaks after the element so that the next page is formatted as a right page */
-  .right-page-break-after,
-  .right-pba
+   - Insert page breaks after the element so that the next page is formatted as a left page.
+   -- .left-page-break-after .
+   -- .left-pba .
 
-   - Always insert a page break before the element */
-  .always-page-break-before,
-  .always-pbb
+   - Insert page breaks after the element so that the next page is formatted as a right page.
+   -- .right-page-break-after .
+   -- .right-pba .
 
-   - Avoid page break before the element (if possible) */
-  .avoid-page-break-before,
-  .avoid-pbb
+   - Always insert a page break before the element.
+   -- .always-page-break-before .
+   -- .always-pbb .
 
-   - Insert page breaks before the element so that the next page is formatted as a left page */
-  .left-page-break-before,
-  .left-pbb
+   - Avoid page break before the element (if possible).
+   -- .avoid-page-break-before .
+   -- .avoid-pbb .
 
-   - Insert page breaks before the element so that the next page is formatted as a right page */
-  .right-page-break-before,
-  .right-pbb
+   - Insert page breaks before the element so that the next page is formatted as a left page.
+   -- .left-page-break-before .
+   -- .left-pbb .
 
-   - Avoid page break inside the element (if possible) */
-  .avoid-page-break-inside,
-  .avoid-pbi
+   - Insert page breaks before the element so that the next page is formatted as a right page.
+   -- .right-page-break-before .
+   -- .right-pbb .
+
+   - Avoid page break inside the element (if possible).
+   -- .avoid-page-break-inside .
+   -- .avoid-pbi .
 
 
 
