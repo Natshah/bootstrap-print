@@ -1,12 +1,11 @@
 /**
- *  Bootstrap print 3.x-1.1.2 for Twitter Bootstrap v3.
+ *  Bootstrap print 3.x-1.1.2 for Bootstrap v3.
  *  
- *  To mange grids using Twitter Bootstrap v3 for print media.
+ *  Mange grids using Bootstrap v3 for printed media.
  *  This will help controlling grid columns size on printed pages using CSS/LESS.
  *  https://github.com/Natshah/bootstrap-print
  *
  */
-
 @media print {
   .col-p-1, .col-p-2, .col-p-3, .col-p-4, .col-p-5, .col-p-6, .col-p-7, .col-p-8, .col-p-9, .col-p-10, .col-p-11, .col-p-12 {
     float: left;
@@ -15,6 +14,7 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+
   .col-p-12 {
     width: 100%;
   }
@@ -51,6 +51,7 @@
   .col-p-1 {
     width: 8.33333333%;
   }
+
   .col-p-pull-12 {
     right: 100%;
   }
@@ -93,6 +94,7 @@
   .col-p-push-12 {
     left: 100%;
   }
+
   .col-p-push-11 {
     left: 91.66666667%;
   }
@@ -129,6 +131,7 @@
   .col-p-push-0 {
     left: auto;
   }
+
   .col-p-offset-12 {
     margin-left: 100%;
   }
@@ -168,7 +171,7 @@
   .col-p-offset-0 {
     margin-left: 0%;
   }
-  
+
   /* Always insert a page break after the element */
   .always-page-break-after,
   .always-pba {
@@ -176,26 +179,26 @@
   }
 
   /* Avoid page break after the element (if possible) */
-  .avoid-page-break-after
+  .avoid-page-break-after,
   .avoid-pba {
     page-break-after: avoid;
   }
 
   /* Insert page breaks after the element so that the next page is formatted as a left page */
   .left-page-break-after,
-  .left-pba{
+  .left-pba {
     page-break-after: left;
   }
 
   /* Insert page breaks after the element so that the next page is formatted as a right page */
   .right-page-break-after,
-  .right-pba{
+  .right-pba {
     page-break-after: right;
   }
 
   /* Always insert a page break before the element */
   .always-page-break-before,
-  .always-pbb{
+  .always-pbb {
     page-break-before: always;
   }
 
@@ -207,13 +210,13 @@
 
   /* Insert page breaks before the element so that the next page is formatted as a left page */
   .left-page-break-before,
-  .left-pbb{
+  .left-pbb {
     page-break-before: left;
   }
 
   /* Insert page breaks before the element so that the next page is formatted as a right page */
   .right-page-break-before,
-  .right-pbb{
+  .right-pbb {
     page-break-before: right;
   }
 
@@ -222,5 +225,4 @@
   .avoid-pbi {
     page-break-inside: avoid;
   }
-
 }
