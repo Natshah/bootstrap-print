@@ -1,5 +1,5 @@
 /**
- *  Bootstrap print 3.x-1.1.1 for Twitter Bootstrap v3.
+ *  Bootstrap print 3.x-1.1.2 for Twitter Bootstrap v3.
  *  
  *  To mange grids using Twitter Bootstrap v3 for print media.
  *  This will help controlling grid columns size on printed pages using CSS/LESS.
@@ -170,49 +170,57 @@
   }
   
   /* Always insert a page break after the element */
-  .always-page-break-after {
+  .always-page-break-after,
+  .always-pba {
     page-break-after: always;
   }
-  
+
   /* Avoid page break after the element (if possible) */
-  .avoid-page-break-after {
+  .avoid-page-break-after
+  .avoid-pba {
     page-break-after: avoid;
   }
-  
+
   /* Insert page breaks after the element so that the next page is formatted as a left page */
-  .left-page-break-after {
+  .left-page-break-after,
+  .left-pba{
     page-break-after: left;
   }
-  
+
   /* Insert page breaks after the element so that the next page is formatted as a right page */
-  .right-page-break-after {
+  .right-page-break-after,
+  .right-pba{
     page-break-after: right;
   }
-  
-  
-    /* Always insert a page break before the element */
-  .always-page-break-before {
+
+  /* Always insert a page break before the element */
+  .always-page-break-before,
+  .always-pbb{
     page-break-before: always;
   }
-  
+
   /* Avoid page break before the element (if possible) */
-  .avoid-page-break-before {
+  .avoid-page-break-before,
+  .avoid-pbb {
     page-break-before: avoid;
   }
-  
+
   /* Insert page breaks before the element so that the next page is formatted as a left page */
-  .left-page-break-before {
+  .left-page-break-before,
+  .left-pbb{
     page-break-before: left;
   }
-  
+
   /* Insert page breaks before the element so that the next page is formatted as a right page */
-  .right-page-break-before {
+  .right-page-break-before,
+  .right-pbb{
     page-break-before: right;
   }
-  
+
   /* Avoid page break inside the element (if possible) */
-  .avoid-page-break-inside {
-    page-break-inside : avoid;
+  .avoid-page-break-inside,
+  .avoid-pbi {
+    page-break-inside: avoid;
   }
 
 }

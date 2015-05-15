@@ -1,4 +1,4 @@
-Bootstrap Print 3.x-1.1.1
+Bootstrap Print 3.x-1.1.2
 ====================
 
  Bootstrap print for Twitter Bootstrap v3.
@@ -20,19 +20,18 @@ Bootstrap Print 3.x-1.1.1
  .col-p-11,
  .col-p-12
  
-  - .avoid-page-break-inside
-  - .always-page-break-after
-  - .avoid-page-break-after
-  - .left-page-break-after
-  - .right-page-break-after
-  - .always-page-break-before
-  - .avoid-page-break-before
-  - .left-page-break-before
-  - .right-page-break-before
-
+  - .avoid-page-break-inside [.avoid-pbi]
+  - .always-page-break-after [.always-pba]
+  - .avoid-page-break-after [.avoid-pba]
+  - .left-page-break-after [.left-pba]
+  - .right-page-break-after [.right-pba]
+  - .always-page-break-before [.always-pbb]
+  - .avoid-page-break-before [.avoid-pbb]
+  - .left-page-break-before [.left-pbb]
+  - .right-page-break-before [.right-pbb]
 
 
 
    - Rajab Natshah
-   - http://rajab.natshah.com
-   - rajab@natshah.com
+   - http://natshah.com
+   - rajabn@gmail.com
