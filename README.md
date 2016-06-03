@@ -68,7 +68,7 @@ Bootstrap Print 3.x-1.2
 -
    - .avoid-page-break-inside .
    - .avoid-pbi .
-
-
+  
+  
     Rajab Natshah
     http://natshah.com
