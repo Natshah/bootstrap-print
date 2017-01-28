@@ -1,4 +1,4 @@
-Bootstrap Print 3.x-1.2
+Bootstrap Print 3.1.2
 ====================
 
  Bootstrap print for Bootstrap v3.
