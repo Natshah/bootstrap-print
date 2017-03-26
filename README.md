@@ -71,8 +71,5 @@ Bootstrap Print 3.1.2
   
       
 ```
-composer require natshah/bootstrap-print
+composer require vardot/bootstrap-print
 ```   
- 
-   - Rajab Natshah
-   - http://natshah.com 
