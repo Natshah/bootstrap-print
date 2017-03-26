@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Natshah/bootstrap-print.git"
+    "url": "https://github.com/Vardot/bootstrap-print.git"
   },
   "keywords": [
     "bootstrap",
@@ -19,5 +19,5 @@
   ],
   "author": "Rajab Natshah <rajabn@gmail.com>",
   "license": "MIT",
-  "homepage": "http://natshah.com"
+  "homepage": "http://rajab.natshah.com"
 }
