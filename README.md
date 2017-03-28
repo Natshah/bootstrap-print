@@ -1,4 +1,4 @@
-Bootstrap Print 3.1.2
+Bootstrap Print 3.1.3
 ====================
 
  Bootstrap print for Bootstrap v3.
@@ -7,6 +7,23 @@ Bootstrap Print 3.1.2
 -
  This will help controlling grid columns size on printed pages.
 -
+
+## Have the most used Medium devices (md) style in print.
+
+LESS
+```
+  @import '../bootstrap/less/variables';
+  @import '../bootstrap/less/mixins/grid-framework';
+  @import '../bootstrap/less/mixins/grid';
+  @import '../bootstrap-print/less/bootstrap-print.less';
+  @import '../bootstrap-print/less/bootstrap-print-md.less';
+```
+
+CSS
+```
+../bootstrap-print/css/bootstrap-print.css
+../bootstrap-print/css/bootstrap-print-md.css
+```
 
  .col-p-1,
  .col-p-2,
@@ -73,3 +90,62 @@ Bootstrap Print 3.1.2
 ```
 composer require vardot/bootstrap-print
 ```   
+
+
+We could use one of the following options to use the same style in print.
+
+## Large devices (lg) style in print.
+
+LESS
+```
+  @import '../bootstrap-print/less/bootstrap-print.less';
+  @import '../bootstrap-print/less/bootstrap-print-lg.less';
+```
+
+CSS
+```
+../bootstrap-print/css/bootstrap-print.css
+../bootstrap-print/css/bootstrap-print-lg.css
+```
+
+## Medium devices (md) style in print.
+
+LESS
+```
+  @import '../bootstrap-print/less/bootstrap-print.less';
+  @import '../bootstrap-print/less/bootstrap-print-md.less';
+```
+
+CSS
+```
+../bootstrap-print/css/bootstrap-print.css
+../bootstrap-print/css/bootstrap-print-md.css
+```
+
+## Small devices (sm) style in print.
+
+LESS
+```
+  @import '../bootstrap-print/less/bootstrap-print.less';
+  @import '../bootstrap-print/less/bootstrap-print-sm.less';
+```
+
+CSS
+```
+../bootstrap-print/css/bootstrap-print.css
+../bootstrap-print/css/bootstrap-print-sm.css
+```
+
+## Extra small devices (xs) style in print.
+
+LESS
+```
+  @import '../bootstrap-print/less/bootstrap-print.less';
+  @import '../bootstrap-print/less/bootstrap-print-xs.less';
+```
+
+CSS
+```
+../bootstrap-print/css/bootstrap-print.css
+../bootstrap-print/css/bootstrap-print-xs.css
+```
