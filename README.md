@@ -71,52 +71,62 @@ For Example:
  And you have a list of helper CSS classes.
 -
 
-   - Always insert a page break after the element.
--
-   - .always-page-break-after .
-   - .always-pba .
+Always insert a page break after the element.
+```
+.always-page-break-after
+.always-pba
+```
 
-   - Avoid page break after the element (if possible).
--
-   - .avoid-page-break-after .
-   - .avoid-pba .
+Avoid page break after the element (if possible).
+```
+.avoid-page-break-after
+.avoid-pba
+```
 
-   - Insert page breaks after the element so that the next page is formatted as a left page.
--
-   - .left-page-break-after .
-   - .left-pba .
+Insert page breaks after the element so that the next page is formatted as a left page.
+```
+.left-page-break-after
+.left-pba
+```
 
-   - Insert page breaks after the element so that the next page is formatted as a right page.
--
-   - .right-page-break-after .
-   - .right-pba .
+Insert page breaks after the element so that the next page is formatted as a right page.
+```
+.right-page-break-after
+.right-pba
+```
 
-   - Always insert a page break before the element.
--
-   - .always-page-break-before .
-   - .always-pbb .
+Always insert a page break before the element.
+```
+.always-page-break-before
+.always-pbb
+```
 
-   - Avoid page break before the element (if possible).
--
-   - .avoid-page-break-before .
-   - .avoid-pbb .
+Avoid page break before the element (if possible).
+```
+.avoid-page-break-before
+.avoid-pbb
+```
 
-   - Insert page breaks before the element so that the next page is formatted as a left page.
--
-   - .left-page-break-before .
-   - .left-pbb .
+Insert page breaks before the element so that the next page is formatted as a left page.
+```
+.left-page-break-before
+.left-pbb
+```
 
-   - Insert page breaks before the element so that the next page is formatted as a right page.
--
-   - .right-page-break-before .
-   - .right-pbb .
+Insert page breaks before the element so that the next page is formatted as a right page.
+```
+.right-page-break-before
+.right-pbb
+```
 
-   - Avoid page break inside the element (if possible).
--
-   - .avoid-page-break-inside .
-   - .avoid-pbi .
-  
-      
+Avoid page break inside the element (if possible).
+```
+.avoid-page-break-inside
+.avoid-pbi
+```
+
+Install with the composer
+
 ```
 composer require vardot/bootstrap-print
 ```   
