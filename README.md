@@ -61,7 +61,7 @@ For Example:
       <!-- In print media the p print will override the sm Small devices -->
       <div class="row">
         <div class="left col-sm-8 col-p-6"></div>
-        <div class="right col-sm-4 col-pm-6"></div>
+        <div class="right col-sm-4 col-p-6"></div>
       </div>
     </div>
   </body>
