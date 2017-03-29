@@ -8,7 +8,8 @@ Bootstrap Print 3.1.3
  This will help controlling grid columns size on printed pages.
 -
 
-## Have the most used Medium devices (md) style in print.
+
+## We do style most of our bootstrap theme sites based on the Small devices (sm).
 
 LESS
 ```
@@ -16,15 +17,18 @@ LESS
   @import '../bootstrap/less/mixins/grid-framework';
   @import '../bootstrap/less/mixins/grid';
   @import '../bootstrap-print/less/bootstrap-print.less';
-  @import '../bootstrap-print/less/bootstrap-print-md.less';
+  @import '../bootstrap-print/less/bootstrap-print-sm.less';
 ```
 
 CSS
 ```
 ../bootstrap-print/css/bootstrap-print.css
-../bootstrap-print/css/bootstrap-print-md.css
+../bootstrap-print/css/bootstrap-print-sm.css
 ```
 
+We will have the list of custom set of print column sizes, so that we could
+change the layout in the printed media as well.
+```
  .col-p-1,
  .col-p-2,
  .col-p-3,
@@ -37,6 +41,32 @@ CSS
  .col-p-10,
  .col-p-11,
  .col-p-12
+```
+
+For Example:
+```
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../bootstrap-print/css/bootstrap-print.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap-print/css/bootstrap-print-sm.css">
+  <head>
+  <body>
+    <div class="container">
+      <!-- In print media the sm Small devices will be used -->
+      <div class="row">
+        <div class="left col-sm-8"></div>
+        <div class="right col-sm-4"></div>
+      </div>
+
+      <!-- In print media the p print will override the sm Small devices -->
+      <div class="row">
+        <div class="left col-sm-8 col-p-6"></div>
+        <div class="right col-sm-4 col-pm-6"></div>
+      </div>
+    </div>
+  </body>
+</html>
+```
 
  And you have a list of helper CSS classes.
 -
