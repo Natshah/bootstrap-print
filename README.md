@@ -1,12 +1,11 @@
-Bootstrap Print 3.1.3
+Bootstrap Print 3.1.4
 ====================
-
- Bootstrap print for Bootstrap v3.
  
+ Bootstrap print for Bootstrap v3.
+
  Mange grids using Bootstrap v3 for printed media.
 -
- This will help controlling grid columns size on printed pages.
--
+ This will help controlling grid columns size on printed pages. with RTL (right to left).
 
 
 ## We do style most of our bootstrap theme sites based on the Small devices (sm).
@@ -178,4 +177,23 @@ CSS
 ```
 ../bootstrap-print/css/bootstrap-print.css
 ../bootstrap-print/css/bootstrap-print-xs.css
+```
+
+-
+
+# For right to left:
+
+LESS
+```
+  @import '../bootstrap/less/variables';
+  @import '../bootstrap/less/mixins/grid-framework-rtl';
+  @import '../bootstrap/less/mixins/grid-rtl';
+  @import '../bootstrap-print/less/bootstrap-print-rtl.less';
+  @import '../bootstrap-print/less/bootstrap-print-rtl-sm.less';
+```
+
+CSS
+```
+../bootstrap-print/css/rtl/bootstrap-print-rtl.css
+../bootstrap-print/css/rtl/bootstrap-print-rtl-sm.css
 ```
